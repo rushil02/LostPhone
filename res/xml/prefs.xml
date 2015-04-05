@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <EditTextPreference
+        android:key="smstext"
+        android:title="Change Keyword"
+        android:defaultValue="LOST" />
+    <CheckBoxPreference
+            android:key="RingerMode"
+            android:summary="Sets phone to ringer mode after message is recieved"
+            android:title="Set phone to ringer mode"
+            android:defaultValue="true"/>
+    <CheckBoxPreference
+            android:key="FlashMode"
+            android:summary="Flashes the phone when Text Message is recieved"
+            android:title="Flash flashlight"
+            android:defaultValue="true"/>
+    <CheckBoxPreference
+            android:key="VibrateMode"
+            android:summary="Vibrates phone when Text Message is recieved"
+            android:title="Vibrate Phone"
+            android:defaultValue="true"/>
+</PreferenceScreen>

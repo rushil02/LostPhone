@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content" android:layout_height="wrap_content">"
+   
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" 
+    	android:background="@drawable/background">
+
+    	<TextView
+        	android:id="@+id/HelpHeading"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="HELP"
+        	android:layout_gravity="center_horizontal"
+        	android:layout_margin="5dp"
+        	android:textStyle="bold"
+        	android:textColor="#ffffff"
+        	android:textSize="25sp"
+        	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#0682F5"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:textStyle="bold"
+    	    android:text="Ever felt the gloom of loosing your phone?" />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#ffffff"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:text="Security perfect it is! A remote access to your lost phone. So activate Security Perfect, and shed off your worries." />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#0682F5"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:textStyle="bold"
+    	    android:text="What does Security Perfect do?" />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#ffffff"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:text="On another phone, it messages you the exact coordinates of your lost phone. So go, grab your beloved phone. Simple!" />
+    
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#0682F5"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:textStyle="bold"
+    	    android:text="How do I use Security Perfect app? " />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#ffffff"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:text="Activate the app everytime you restart your phone.\n
+Set a keyword for your phone which will be used to track your phone if it gets lost.\n
+You may keep your passcode for this app for only you to use it. \n
+Now, if your phone is lost, simply send 'your keyword' as a text message from any other phone and rest leave on us." />
+    		
+	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#0682F5"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:textStyle="bold"
+    	    android:text="What type of keywords should I set?" />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#ffffff"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:text="The keyword must be unique. It may be any combination of alphabets and digits or characters.\n 
+(By default, the keyword  is 'LOST' )" />
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#0682F5"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:textStyle="bold"
+    	    android:text="How do I track my lost phone? " />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#ffffff"
+    	    android:textSize="15sp"
+    	    android:layout_margin="5dp"
+    	    android:text="A 30 second task! Just follow what I say :\n
+From any other phone (say phone 2), send 'your set keyword' as a text message on your lost number (say phone 1).\n 
+After you send the keyword, an automatically generated message is received on phone 2 from phone 1 giving a gmap link of the coordinates of phone 1.\n
+The lost phone starts vibrating, the flash goes on and off and a set tune starts ringing.\n
+And there you go. Easy!" />
+    
+    </LinearLayout>
+</ScrollView>

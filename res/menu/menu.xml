@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/settings" android:numericShortcut="1" android:title="Settings"></item>
+    <item android:id="@+id/about" android:numericShortcut="2" android:title="About Us"></item>
+    <item android:id="@+id/help" android:numericShortcut="3" android:title="Help"></item>
+    
+</menu>
